@@ -1,0 +1,146 @@
+@import "./global.css";
+
+.hero {
+  padding-top: 5.6rem;
+  background-color: #014e56;
+  color: #ffffff;
+  padding-bottom: 25rem;
+  background-image: url("../images/Group\ 8.png"), url("../images/Group\ 7.png");
+  background-repeat: no-repeat;
+  background-position: top 5rem left, bottom right 16.5rem;
+}
+
+.hero-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.hero-title {
+  width: 100%;
+  max-width: 535px;
+  font-size: var(--h1-large-fs);
+  line-height: var(--h1-large-lh);
+}
+
+.hero-description {
+  width: 100%;
+  max-width: 445px;
+}
+
+.hero-diveder {
+  margin-bottom: 7.9rem;
+}
+
+.hero-description-text {
+  font-size: var(--body-small-fs);
+  line-height: var(--body-small-lh);
+}
+
+/* FEATURES STYLE STARET */
+
+.features {
+  padding-top: 14rem;
+  padding-bottom: 14rem;
+  background-color: #012f34;
+  background-image: url("../images/Group\ 8\ \(1\).svg");
+  background-repeat: no-repeat;
+  background-position: right bottom;
+  color: #ffffff;
+}
+.features-container {
+  display: flex;
+  justify-content: space-between;
+}
+
+.features-content {
+  width: 100%;
+  max-width: 445px;
+}
+
+.fetures-diveder {
+  margin-bottom: 5.4rem;
+}
+.features-title {
+  font-size: 4.8rem;
+  line-height: 1;
+}
+.features-list-wrapper {
+  width: 100%;
+  max-width: 540px;
+  margin-top: 5.4rem;
+}
+.features-list {
+  display: flex;
+  flex-direction: column;
+  gap: 3.2rem;
+}
+.features-item {
+  display: flex;
+  gap: 3.2rem;
+}
+
+.features-item-title {
+  font-size: 1.8rem;
+  margin-bottom: 1.6rem;
+}
+.features-item-text {
+  opacity: 0.8;
+}
+
+/* STORIES STYLE START */
+
+.stories {
+  padding-top: 14rem;
+  padding-bottom: 14rem;
+  color: #ffffff;
+  background-color: #014e56;
+}
+
+.stories-title {
+  font-size: 4.8rem;
+  line-height: 1;
+  text-align: center;
+  width: 100%;
+  max-width: 932px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 5.6rem;
+}
+
+.stories-list {
+  display: flex;
+  text-align: center;
+  justify-content: space-between;
+}
+.stories-item {
+  padding-top: 3.6rem;
+  background-image: url("../images/icon-quotes.svg");
+  background-repeat: no-repeat;
+  background-position: top center;
+  width: 100%;
+  max-width: 350px;
+  display: flex;
+  flex-direction: column;
+}
+.stories-description {
+  margin-bottom: 2.4rem;
+}
+.stories-person {
+  margin-bottom: 3.2rem;
+}
+.stories-person-title {
+  font-size: 1.8rem;
+  line-height: 1.5;
+  margin-bottom: 2rem;
+}
+.stories-person-job {
+  font-size: 1.3rem;
+  line-height: 1.3;
+  font-weight: 500;
+}
+.stories-avatar {
+  align-self: center;
+  border-radius: 50%;
+  border: 2px solid #ffffff;
+}
